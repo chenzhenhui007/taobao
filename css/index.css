@@ -213,10 +213,14 @@
   line-height: 38px;
 }
 .wrapper .search .content .seek .seek-bd .recommend ul li {
+  cursor: pointer;
   float: left;
   font-size: 12px;
   margin-right: 8px;
   color: #666;
+}
+.wrapper .search .content .seek .seek-bd .recommend ul li:hover {
+  color: #ff5000 !important;
 }
 .wrapper .search .content .seek .seek-bd .recommend ul li:after {
   display: block;
@@ -227,7 +231,7 @@
   float: right;
 }
 .wrapper .search .content .seek .seek-bd .recommend ul .red {
-  color: #ff5000!important;
+  color: #ff5000 !important;
 }
 .wrapper .search .content .qc_code {
   margin-left: 120px;
@@ -316,11 +320,14 @@
   position: relative;
   height: 632px;
 }
+.wrapper .middle .mid_con .mid_con_top .mid:nth-child(n+2) {
+  margin-left: 10px;
+}
 .wrapper .middle .mid_con .mid_con_top .left_nav {
   background-color: #FFFFFF;
   vertical-align: top;
   display: inline-block;
-  width: 190px;
+  width: 188px;
   height: 513px;
   border: 1px solid #ff5000;
   font-size: 14px;
@@ -356,8 +363,6 @@
   width: 520px;
   height: 512px;
   margin-top: 10px;
-  margin-left: 8px;
-  margin-right: 6px;
 }
 .wrapper .middle .mid_con .img .move_img {
   position: relative;
@@ -471,7 +476,6 @@
   width: 160px;
   height: 512px;
   margin-top: 10px;
-  margin-left: 5px;
 }
 .wrapper .middle .mid_con .cor_middle .pic1 {
   display: inline-block;
@@ -497,17 +501,18 @@
   display: inline-block;
   background-color: #FFFFFF;
   vertical-align: top;
-  width: 295px;
-  height: 652px;
+  width: 289px;
+  height: 642px;
   overflow: hidden;
+  margin-top: 10px;
+  border-right: 1px solid #f5f5f5;
 }
 .wrapper .middle .mid_con .cor_right .hi {
   width: 290px;
-  height: 145px;
+  height: 132px;
   padding: 3px 0 10px 0px;
   background-image: url("../img/bg.png");
   background-size: 100% 100%;
-  margin-top: 10px;
 }
 .wrapper .middle .mid_con .cor_right .hi .hi_bd {
   width: 290px;
@@ -652,7 +657,7 @@
   padding-bottom: 6px;
 }
 .wrapper .middle .mid_con .cor_right .notice .content .red {
-  color: #ff5000!important;
+  color: #ff5000 !important;
 }
 .wrapper .middle .mid_con .cor_right .notice .content li {
   float: left;
